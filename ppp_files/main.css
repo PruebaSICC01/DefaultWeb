@@ -1,0 +1,103 @@
+body  {
+    font-family: lato;
+    text-align: center;
+}
+
+.red {
+	color: #de1111;
+}
+
+.green {
+	color: #24800a;
+}
+
+.blue {
+	color: #4285f4;
+}
+
+.yellow {
+	color: #ffa71d;
+}
+
+#search-bar-container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    height: 38px;
+    vertical-align: top;
+    border: 1px solid #4285f4;
+    max-width: 600px;
+    padding: 5px 9px 0;
+}
+
+#search_bar {
+    border: none;
+    width: 100%;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    
+}
+
+#submit-btn {
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -moz-border-radius: 2px;
+    -moz-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.icon-span {
+    display: inline-block;
+    margin: 1em;
+}
+
+.icon_link {
+    display: inline-block;
+    width: 100%;
+}
+
+.inner-container {
+   
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+#amazon-cont iframe {
+    position: relative;
+    top: -12px;
+}
+
+#amazon-cont span {
+    position: relative;
+    top: -45px;
+}
+
+#amazon-cont {
+    margin-bottom: -25px;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.jumbotron {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    
+}
+
+.jumbotron h1 {
+    font-size: 40px;
+}

@@ -1,0 +1,28 @@
+function setStartPage() {
+        if (document.all) {
+                document.body.style.behavior='url(#default#homepage)';
+                document.body.setHomePage('http://www.paginaprincipalgoogle.es');
+        }
+        else if (window.sidebar) {
+                if(window.netscape) {
+                        try {  
+                                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");  
+                        }  
+                        catch(e) {  
+                                alert('No disponible con este navegador.');  
+                        }
+                } 
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage','http://www.spaginaprincipalgoogle.com');
+                }
+}
+function checkSearchString() {
+        var searchString = document.getElementById('search_bar').value;
+        if (searchString != '') {
+                return true;
+        }
+        else {
+                return false;
+        }
+}
+		
